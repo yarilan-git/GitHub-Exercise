@@ -1,0 +1,83 @@
+/* naming convention its best to use camelcasing e.g you use #Memes, its best to use #memes since you used lowercase for all other css classes or id. Does not affect your code but just good practice*/
+.container {
+  display: flex;
+  justify-content: center;
+  border: solid 1px black;
+}
+/*----------------------------*/
+label {
+  display: inline-block;
+  width: 180px;
+}
+input {
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  white-space: normal;
+}
+/*----------------------------*/
+h1 {
+  padding-left: 70px;
+  width: 300px;
+}
+/*----------------------------*/
+#submit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 0.3in 4%;
+}
+/*----------------------------*/
+#memes {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.meme {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.meme > img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  align-self: center;
+}
+/*----------------------------*/
+/*We can comment this out to get the default size of the image uploaded*/
+img {
+  /* margin-left: 50px;
+  width: 200px;
+  height: 250px;
+  display: block; */
+}
+/*----------------------------*/
+#removeBtn {
+  padding: 10px;
+  margin: 0.5in 10%;
+}
+/*----------------------------*/
+span {
+  display: block;
+  text-align: center;
+}
+/*----------------------------*/
+hr {
+  width: 100%;
+}
